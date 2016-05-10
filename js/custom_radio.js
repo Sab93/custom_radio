@@ -6,8 +6,8 @@ $('.custom_radio input[type=radio]').hide().after('<span class="off"></span>');
     $('.off').click(function () {
 
         //on deselectionne le precedent
-        $('.on').prev().prop('checked',false);
-        $('.on').removeClass('on').addClass('off');
+        $(this).parent().find('.on').prev().prop('checked',false);
+        $(this).parent().find('.on').removeClass('on').addClass('off');
 
         //on  selectionne l'elt en cours
         $(this).removeClass('off').addClass('on');
@@ -18,10 +18,6 @@ $('.custom_radio input[type=radio]').hide().after('<span class="off"></span>');
 //verif saisie
 $('#btn').click(function () {
    console.log($('input[name=choix]:checked').val());
+   console.log($('input[name=sexe]:checked').val());
 });
-
-
-
-
-
 });
