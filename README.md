@@ -16,7 +16,7 @@ in html file please insert this code in the <head>
 	
 	the **custom_radio** class is mandatory
 	
-	```
+	```html
 	<div class="custom_radio">
 	<input type="radio" name="choice" value="yes"/><label>Yes</label>
 	<input type="radio" name="choice" value="no"/><label>No</label>
