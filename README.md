@@ -5,7 +5,7 @@ Radio button widget
 
 ###Usage :
 
-in html file please insert this code in the <head>
+in html file please insert this code in the head
    ```html
    <link rel="stylesheet" href="css/custom_radio.css">
     <script src="js/custom_radio.js"></script>
