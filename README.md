@@ -1,12 +1,12 @@
 # custom_radio
 Radio button widget
 ###require:
-jquery librairy
+[jquery](http://jquery.com)
 
 ###Usage :
 
 in html file please insert this code in the <head>
-   ```
+   ```html
    <link rel="stylesheet" href="css/custom_radio.css">
     <script src="js/custom_radio.js"></script>
 	```
