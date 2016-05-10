@@ -15,9 +15,5 @@ $('.custom_radio input[type=radio]').hide().after('<span class="off"></span>');
 
 
     });
-//verif saisie
-$('#btn').click(function () {
-   console.log($('input[name=choix]:checked').val());
-   console.log($('input[name=sexe]:checked').val());
-});
+
 });
